@@ -238,7 +238,7 @@ public class CasosDePrueba {
         Assert.assertEquals(driver.findElement(By.xpath("//div[@aria-label='Indicador de error']")).getText(),"Selecciona tu mes de nacimiento.");
     }
     @Test
-    public void CP006_Boton_Iniciar_Sesion() throws InterruptedException {
+    public void CP005_Boton_Iniciar_Sesion() throws InterruptedException {
 
         System.setProperty(propertyDriver, rutaDriver);
 
